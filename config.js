@@ -50,6 +50,47 @@ module.exports = {
             secure: false, // Does the lavalink server use secure connection
             autoResume: true // Just keep this as true
         },
+        {
+            name: "lavalink.jirayu.net",
+            host: "lavalink.jirayu.net",
+            password: "youshallnotpass",
+            port: 13592,
+            retryDelay: 40,
+            secure: false
+    
+        },
+        {
+            name: "Catfein",
+            host: "lava.catfein.com",
+            password: "catfein",
+            port: 4000,
+            retryDelay: 40,
+            secure: false
+        },
+        {
+            name: "Catfein DE",
+            host: "lavalink.alfari.id",
+            password: "catfein",
+            port: 443,
+            retryDelay: 40,
+            secure: true
+        },
+        {
+            name: "LewdHuTao - Lavalink",
+            host: "node.lewdhutao.my.eu.org",
+            password: "youshallnotpass",
+            port: 80,
+            retryDelay: 40,
+            secure: false
+        },
+        {
+            name: "jompo.cloud - Lavalink",
+            host: "lavalink-legacy.jompo.cloud",
+            password: "jompo",
+            port: 2333,
+            retryDelay: 40,
+            secure: false
+        }
     ],
 
     /**
@@ -83,7 +124,7 @@ module.exports = {
 				type: "LISTENING",
 			},
             {
-                name: "This bot is made by Gunman",
+                name: "Made By Gunman",
                 type: "CUSTOM"
             }
 		],
